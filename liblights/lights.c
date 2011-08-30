@@ -181,11 +181,11 @@ set_speaker_light_locked(struct light_device_t* dev,
 
         // the LED appears to blink about once per second if freq is 20
         // 1000ms / 20 = 50
-        freq = (onMS / 200) * 5;
+        freq = (onMS / 250) * 5;
         // pwm specifies the ratio of ON versus OFF
         // pwm = 0 -> always off
         // pwm = 255 => always on
-        pwm = (onMS / 100) * 5;
+        pwm = (onMS / 200) * 5;
         // the low 4 bits are ignored, so round up if necessary
         blink = 1;
     } else {

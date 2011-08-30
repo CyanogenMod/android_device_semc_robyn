@@ -149,4 +149,6 @@
     <!-- Boolean indicating if we require the use of DUN on mobile for tethering -->
     <bool translatable="false" name="config_tether_dun_required">false</bool>
 
+    <integer name="config_rotaryMarginBottomDIP">0</integer>
+
 </resources>
