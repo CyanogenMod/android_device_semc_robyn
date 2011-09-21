@@ -20,7 +20,7 @@
     <bool name="useCameraInterface">false</bool>
 
     <!-- Full path to the sysfs toggle -->
-    <string name="flashDevice">/sys/devices/platform/msm_pmic_flash_led/cmaflash::enable</string>
+    <string name="flashDevice">/sys/devices/platform/msm_pmic_flash_led/spotlight::enable</string>
 
     <!-- Lowest setting -->
     <integer name="valueOn">1</integer>
