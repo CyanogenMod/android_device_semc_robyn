@@ -7,9 +7,9 @@ $(call inherit-product-if-exists, vendor/semc/robyn/robyn-vendor.mk)
 
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := Xperia X10 Mini
+PRODUCT_NAME := robyn
 PRODUCT_DEVICE := robyn
-PRODUCT_MODEL := E10i
+PRODUCT_MODEL := robyn
 
 -include device/semc/msm7x27-common/msm7x27.mk
 
